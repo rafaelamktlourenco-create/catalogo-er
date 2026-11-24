@@ -375,6 +375,7 @@ footer .wrap{padding-top:30px}
       <div class="row"><span class="n">Decorações Simples</span><span class="d"></span><span class="v"><i>a partir de</i>R$ 15,00</span></div>
       <div class="row"><span class="n">Decorações em Todos os Dedos</span><span class="d"></span><span class="v"><i>a partir de</i>R$ 30,00</span></div>
       <div class="row"><span class="n">Remoção</span><span class="d"></span><span class="v">R$ 60,00</span></div>
+      <div class="row"><span class="n">Unha quebrada</span><span class="d"></span><span class="v">R$ 20,00</span></div>
     </div>
   </div>
 </section>
@@ -515,7 +516,7 @@ footer .wrap{padding-top:30px}
    CONFIGURAÇÃO — troque apenas o número abaixo
    Formato: 55 + DDD + número, só dígitos. Ex.: 5511987654321
    ================================================================ */
-const WHATSAPP_NUMERO = "5511952430071";   // recebe o aviso de cada novo agendamento
+const WHATSAPP_NUMERO = "5511992479579";   // recebe o aviso de cada novo agendamento
 const ENDERECO = "Rua Antônio Ferraciolli, 1 - Jardim Catarina, São Paulo - SP, 03910-070";
 
 /* Fotos (mesma ordem dos serviços) */
@@ -599,7 +600,7 @@ const FOTOS = [
     const $ = id => document.getElementById(id);
     const PRECOS = {"Alongamento no Molde F1":"R$ 140","Manutenção — até 25 dias":"R$ 100","Manutenção — até 30 dias":"R$ 105",
       "Manutenção — até 35 dias":"R$ 110","Banho de Gel":"R$ 115","Esmaltação em Gel":"R$ 65","Manicure":"R$ 40",
-      "Decorações Simples":"a partir de R$ 15","Decorações em Todos os Dedos":"a partir de R$ 30","Remoção":"R$ 60"};
+      "Decorações Simples":"a partir de R$ 15","Decorações em Todos os Dedos":"a partir de R$ 30","Remoção":"R$ 60","Unha quebrada":"R$ 20"};
     const SEM = ["dom","seg","ter","qua","qui","sex","sáb"], SEMX = ["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
     const MES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
     const parse = d => { const [y,m,dd] = d.split("-").map(Number); return new Date(Date.UTC(y,m-1,dd)); };
